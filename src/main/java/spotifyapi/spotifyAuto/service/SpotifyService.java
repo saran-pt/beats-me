@@ -124,8 +124,8 @@ public class SpotifyService {
 
     public String callBack(String code) {
         String redirectUri = "http://localhost:8080/callback";
-        String clientId = "95e2adb856bb4eceb6c38e8320a372f6";
-        String clientSecret = "fbc455ac97af49ebb7024ec8d5412acf";
+        String clientId = "";
+        String clientSecret = "";
 
         try {
             String authorizationHeader = "Basic " + Base64.getEncoder().encodeToString((clientId + ":" + clientSecret).getBytes());
