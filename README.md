@@ -1,4 +1,4 @@
 # Beats Me - Spotify Playlist Creator
 
 ## Objective
-Beats Me is a Java Spring Boot application designed to make music curation easy and personalized. Using the Spotify API, Beats Me lets you create custom playlists based on your recent listening history.
+In the diverse world of music, understanding and categorizing genres play a crucial role. This project focuses on creating an intuitive system to identify and classify music genres without delving into complex machine learning techniques. By leveraging curated datasets with various audio features, our aim is to build a tool that brings simplicity to genre identification.
