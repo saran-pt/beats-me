@@ -18,7 +18,7 @@ public class SpotifyService {
 
     public String authenticate(){
         String url = "https://accounts.spotify.com/authorize?";
-        String clientId = "95e2adb856bb4eceb6c38e8320a372f6";
+        String clientId = "";
         String responseType = "code";
         String redirectUri = "http://localhost:8080/callback";
         String scope = "user-read-private user-top-read playlist-modify-public playlist-modify-private";
